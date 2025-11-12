@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+@import 'tailwindcss';
+
+* {
+  transition: all 0.3s ease-in-out;
+}
+
+body{
+ font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ overflow: hidden;
+}
+
+/* Professional Color Classes */
+.text-primary { color: #F26522; }
+.text-secondary { color: #0071BC; }
+.text-accent { color: #FFD233; }
+.text-dark { color: #1E293B; }
+.text-textSecondary { color: #64748B; }
+.text-muted { color: #64748B; }
+.bg-primary { background-color: #F26522; color: white; }
+.bg-secondary { background-color: #0071BC; color: white; }
+.bg-accent { background-color: #FFD233; color: #1E293B; }
+.bg-light { background-color: #F9FAFB; }
+.bg-dark { background-color: #1E293B; color: white; }
